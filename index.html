@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TaskMaster - Modern To-Do List</title>
+
+</head>
+<body>
+    <div class="container">
+        <h1>TaskMaster</h1>
+        
+        <div class="input-group">
+            <input type="text" id="taskInput" placeholder="Add a new task..." aria-label="New task description">
+            <button class="add-btn" id="addBtn">Add</button>
+        </div>
+        
+        <ul class="task-list" id="taskList">
+            <!-- Tasks will be added here dynamically -->
+            <li class="empty-state">
+                <img src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/0136acfb-1bf7-4b76-9c9c-4bc5d3268d90.png" alt="Illustration of a clipboard with verification checkmarks in a flat design style" />
+                <p>No tasks added yet. Start by adding one above!</p>
+            </li>
+        </ul>
+        
+        <div class="stats" id="stats">
+            <span id="totalTasks">0 tasks</span>
+            <span id="completedTasks">0 completed</span>
+        </div>
+    </div>
+
+</body>
+</html>
+
